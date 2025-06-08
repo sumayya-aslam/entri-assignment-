@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg text-light bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary" href="index.html" >Tourest  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+         <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
+    </div>
+  </nav>
+<!-- Testimonials Section -->
+ <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8-W6n_8d4SsVRLgye2TAmjlHeNFma2rSxg&s" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvSCzZ4hBYWFpGTC61K4tsbp_2QlbokYkmuQ&s" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CFQfNoNuilddx-BxWrkCc1lNI0bmOmer_g&s" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- hero section -->
+ <section class="hero" id="hero">
+  <div class="container">
+    <h1 class="display-4">Trusted Travel Agency </h1>
+    <p class="lead">I travel not to go anywhere but to go.I travel sale the great after is to more</p>
+    <img height="400px" width="400px" src="https://hips.hearstapps.com/hmg-prod/images/long-boat-docked-on-beach-in-krabi-thailand-summers-royalty-free-image-1622044679.jpg?crop=1xw:1xh;center,top&resize=980:*" alt="beautiful image" class="img-fluid my-4">
+    <a href="#pricing" class="btn btn-success btn-lg cta-btn">Book Now</a>
+  </div>
+</section>
+ <div class="container my-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Travel is Incredible </h5>
+          <p class="card-text">opens our minds, connects us, and makes the world a smaller place. Done well, tourism is a force for good that ifts communities out of poverty, improves living standards in developing countries, and safeguards the world's natural and cultural treasures </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-primary">We Keep It That Way </h5>
+          <p class="card-text">Tourism also accounts for % of global emissions, litters the planet with plastic, threatens species, and overburdens communities. We build tools that tackle these issues and enable the travel industry to adopt better practices that leave behind a positive impact</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-success">Everything is provide</h5>
+          <p class="card-text">Tour pakages, Hotel accomodation,Air Ticketing are providind
+
+          </p>
+           <a href="#" class="btn btn-primary">Lern more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal -->
+ <div class="modal" tabindex="-1" id="staticBackdrop">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+      <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+    </div>
+    <div class="mb-3">
+      <label for="place" class="form-label">Place</label>
+      <input type="text" class="form-control" id="place" placeholder="place">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Footer -->
+  <footer class="bg-dark text-center py-3">
+    <p class="text-light">&copy; 2025 Tourest/
+      <a href="#"><i class="bi bi-facebook">facebook</i></a> 
+      <a href="#"><i class="bi bi-twitter">twitter</i></a> 
+      <a href="#"><i class="bi bi-instagram">instagram</i></a>
+    </p>
+  </footer>
+    <scrip src="./bootstrap.bundle.min.js"></scrip>
+    
+</body>
+</html>
